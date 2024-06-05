@@ -33,6 +33,7 @@ public static class MauiProgram
             handlers.AddHandler(typeof(MenuFlyout), typeof(MenuFlyoutHandler));
         });
 
+        //TODO:
         builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<MainViewModel>();
 
